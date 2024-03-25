@@ -305,5 +305,5 @@ export function scanBarcodes(
   'worklet';
   // @ts-ignore
   // eslint-disable-next-line no-undef
-  return __scanCodes(frame, types, options);
+  return global.__scanCodes(frame, types, options);
 }
